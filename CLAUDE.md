@@ -5,6 +5,7 @@
 ## アーキテクチャ
 
 これは Vite + React 19 + TypeScript で構成されたミニマルな SPA で、現時点ではスターターテンプレートの段階です(`src/App.tsx` はまだデフォルトの Vite/React スキャフォールドに近い状態)。
+ルーティングにはreact-router（v7）を使用する。
 
 - `src/main.tsx` — エントリーポイント。`App` を `#root` にマウントする。
 - `src/App.tsx` — 現状唯一のコンポーネント。UI はすべてここに記述されている。
