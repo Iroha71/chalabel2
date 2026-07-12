@@ -6,7 +6,7 @@ import { PATHS } from "./consts/routes";
 function App() {
   return (
     <Routes>
-      <Route index path={PATHS.index} element={<Index />} />
+      <Route index element={<Index />} />
       <Route path={PATHS.licenses} element={<License />} />
     </Routes>
   );
